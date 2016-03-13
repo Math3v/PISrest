@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Patient": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Owner": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Visit": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Commission": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Examination": {
+    "dataSource": "db",
+    "public": true
+  }
+}
