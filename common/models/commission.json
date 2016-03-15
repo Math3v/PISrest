@@ -28,15 +28,10 @@
   },
   "validations": [],
   "relations": {
-    "patient": {
+    "APIUser": {
       "type": "belongsTo",
-      "model": "Patient",
-      "foreignKey": "patientId"
-    },
-    "owner": {
-      "type": "belongsTo",
-      "model": "Owner",
-      "foreignKey": "ownerId"
+      "model": "APIUser",
+      "foreignKey": " APIuserId"
     }
   },
   "acls": [],

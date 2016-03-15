@@ -1,5 +1,5 @@
 {
-  "name": "Owner",
+  "name": "APIUser",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -12,7 +12,6 @@
     },
     "pin": {
       "type": "string",
-      "id": "1",
       "required": true
     },
     "phone": {
@@ -20,6 +19,10 @@
       "required": true
     },
     "address": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
       "type": "string",
       "required": true
     }

@@ -21,10 +21,10 @@
   },
   "validations": [],
   "relations": {
-    "patient": {
+    "APIUser": {
       "type": "belongsTo",
-      "model": "Patient",
-      "foreignKey": "patientId"
+      "model": "APIUser",
+      "foreignKey": " APIuserId"
     }
   },
   "acls": [],

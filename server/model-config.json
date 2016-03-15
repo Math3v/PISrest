@@ -13,11 +13,7 @@
       "./mixins"
     ]
   },
-  "Patient": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Owner": {
+  "APIUser": {
     "dataSource": "db",
     "public": true
   },
