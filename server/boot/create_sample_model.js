@@ -21,7 +21,12 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.Examination.create([
-      {date: '2016-03-11', description: 'Boli ho proste neco', recipe: 'Ibalgin', APIuserId: '1'},
+      {date: '2016-03-11', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '2', patient_id: '5'},
+      {date: '2016-03-12', description: 'Boli ho proste neco', recipe: 'Nogrip', doctor_id: '2', patient_id: '5'},
+      {date: '2016-03-13', description: 'Boli ho proste neco', recipe: 'Paralen', doctor_id: '2', patient_id: '5'},
+      {date: '2016-03-14', description: 'Boli ho proste neco', recipe: 'Nicorette', doctor_id: '2', patient_id: '6'},
+      {date: '2016-03-15', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '3', patient_id: '6'},
+      {date: '2016-03-16', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '3', patient_id: '7'},
     ], function(err, Examinations) {
       if (err) throw err;
  
