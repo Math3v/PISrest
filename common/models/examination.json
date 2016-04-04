@@ -24,7 +24,7 @@
     "APIUser": {
       "type": "belongsTo",
       "model": "APIUser",
-      "foreignKey": " APIuserId"
+      "foreignKey": "APIuserId"
     }
   },
   "acls": [],
