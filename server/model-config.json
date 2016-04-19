@@ -28,5 +28,9 @@
   "Examination": {
     "dataSource": "db",
     "public": true
+  },
+    "Act": {
+    "dataSource": "db",
+    "public": true
   }
 }

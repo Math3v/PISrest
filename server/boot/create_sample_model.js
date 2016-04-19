@@ -55,4 +55,18 @@ module.exports = function(app) {
       console.log('Models created: \n', Visits);
     });
   });
+  app.dataSources.db.automigrate('Act', function(err) {
+    if (err) throw err;
+ 
+    app.models.Act.create([
+      {note: 'Trhani zubu', examination_id: '1'},
+      {note: 'Trhani zubu', examination_id: '1'},
+      {note: 'Vrtani zubu', examination_id: '3'},
+      {note: 'Cisteni kanalku', examination_id: '4'},
+    ], function(err, Acts) {
+      if (err) throw err;
+ 
+      console.log('Models created: \n', Acts);
+    });
+  });
 };
