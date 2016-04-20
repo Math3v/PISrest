@@ -8,15 +8,15 @@
   "properties": {
     "date": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "recipe": {
       "type": "string",
-      "required": true
+      "required": false
     }    
   },
   "validations": [],

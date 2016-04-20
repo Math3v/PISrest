@@ -8,23 +8,23 @@
   "properties": {
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "pin": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "phone": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "address": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "role": {
       "type": "string",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
