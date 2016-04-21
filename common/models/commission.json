@@ -31,7 +31,12 @@
     "APIUser": {
       "type": "belongsTo",
       "model": "APIUser",
-      "foreignKey": "APIuserId"
+      "foreignKey": "doctor_id"
+    },
+    "APIUser": {
+      "type": "belongsTo",
+      "model": "APIUser",
+      "foreignKey": "patient_id"
     }
   },
   "acls": [],
