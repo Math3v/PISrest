@@ -21,12 +21,12 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.Examination.create([
-      {date: '2016-03-11', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '2', patient_id: '5'},
-      {date: '2016-03-12', description: 'Boli ho proste neco', recipe: 'Nogrip', doctor_id: '2', patient_id: '5'},
-      {date: '2016-03-13', description: 'Boli ho proste neco', recipe: 'Paralen', doctor_id: '2', patient_id: '5'},
-      {date: '2016-03-14', description: 'Boli ho proste neco', recipe: 'Nicorette', doctor_id: '2', patient_id: '6'},
-      {date: '2016-03-15', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '3', patient_id: '6'},
-      {date: '2016-03-16', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '3', patient_id: '7'},
+      {date: '08/15/2015', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '2', patient_id: '5'},
+      {date: '09/24/2015', description: 'Boli ho proste neco', recipe: 'Nogrip', doctor_id: '2', patient_id: '5'},
+      {date: '01/20/2016', description: 'Boli ho proste neco', recipe: 'Paralen', doctor_id: '2', patient_id: '5'},
+      {date: '04/02/2016', description: 'Boli ho proste neco', recipe: 'Nicorette', doctor_id: '2', patient_id: '6'},
+      {date: '04/07/2016', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '3', patient_id: '6'},
+      {date: '04/20/2016', description: 'Boli ho proste neco', recipe: 'Ibalgin', doctor_id: '3', patient_id: '7'},
     ], function(err, Examinations) {
       if (err) throw err;
  
@@ -37,7 +37,7 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.Commission.create([
-      {code: '54654', name: 'Rovnatka', note: 'Vyrob nebo vyndej z pusy', laboratory: 'Zlin', date: '2016-05-12', APIuserId: '1'},
+      {code: '54654', name: 'Rovnatka', note: 'Vyrob nebo vyndej z pusy', laboratory: 'Zlin', date: '01/20/2015', APIuserId: '1'},
     ], function(err, Commissions) {
       if (err) throw err;
  
@@ -48,7 +48,7 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.Visit.create([
-      {date: '2016-03-12', time: '12:00', doctor_id: '1', patient_id: '5', status: 'new'},
+      {date: '03/20/2016', time: '12:00', doctor_id: '1', patient_id: '5', status: 'new'},
     ], function(err, Visits) {
       if (err) throw err;
  
