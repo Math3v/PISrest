@@ -4,13 +4,13 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.APIUser.create([
-      {name: 'Pepik', password: 'Pepik', pin: '898981/9897', phone: '54548888', address: 'Vancouver', role:'admin'},
-      {name: 'Fera', password: 'Fera', pin: '8787878/9897', phone: '1111111', address: 'Kosice', role: 'doctor'},
-      {name: 'Jera', password: 'Jera', pin: '8787878/9898', phone: '1111112', address: 'Kosice', role: 'doctor'},
-      {name: 'Dera', password: 'Dera', pin: '8787878/9899', phone: '1111113', address: 'Kosice', role: 'doctor'},
-      {name: 'Mira', password: 'Mira', pin: '8788/9897', phone: '11111541', address: 'Brno', role: 'patient'},
-      {name: 'Kira', password: 'Kira', pin: '8788/9898', phone: '11111542', address: 'Brno', role: 'patient'},
-      {name: 'Tira', password: 'Tira', pin: '8788/9899', phone: '11111543', address: 'Brno', role: 'patient'}
+      {name: 'Pepik', password: 'Pepik', pin: '898981/9897', phone: '545488188', address: 'Vancouver', role:'admin'},
+      {name: 'Fera', password: 'Fera', pin: '878738/9897', phone: '111111121', address: 'Kosice', role: 'doctor'},
+      {name: 'Jera', password: 'Jera', pin: '788789/9898', phone: '111111231', address: 'Kosice', role: 'doctor'},
+      {name: 'Dera', password: 'Dera', pin: '878788/9899', phone: '111111573', address: 'Kosice', role: 'doctor'},
+      {name: 'Mira', password: 'Mira', pin: '878821/9897', phone: '111115481', address: 'Brno', role: 'patient'},
+      {name: 'Kira', password: 'Kira', pin: '878348/9898', phone: '118111542', address: 'Brno', role: 'patient'},
+      {name: 'Tira', password: 'Tira', pin: '128788/9899', phone: '111115443', address: 'Brno', role: 'patient'}
     ], function(err, APIUsers) {
       if (err) throw err;
  
