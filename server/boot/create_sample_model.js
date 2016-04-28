@@ -48,7 +48,7 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.Visit.create([
-      {date: '20.03.2015', time: '12:00', doctor_id: '1', patient_id: '5', status: 'new'},
+      {date: '20.03.2015', time: '12:00', doctor_id: '1', patient_id: '5', status: 'unconfirmed'},
     ], function(err, Visits) {
       if (err) throw err;
  
