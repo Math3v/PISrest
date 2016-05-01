@@ -20,7 +20,7 @@ module.exports = function(app) {
     ], function(err, APIUsers) {
       if (err) throw err;
  
-      console.log('Models created: \n', APIUsers);
+     
     });
   });
   app.dataSources.db.automigrate('Examination', function(err) {
@@ -48,7 +48,7 @@ module.exports = function(app) {
     ], function(err, Examinations) {
       if (err) throw err;
  
-      console.log('Models created: \n', Examinations);
+     
     });
   });
   app.dataSources.db.automigrate('Commission', function(err) {
@@ -63,7 +63,7 @@ module.exports = function(app) {
     ], function(err, Commissions) {
       if (err) throw err;
  
-      console.log('Models created: \n', Commissions);
+      
     });
   });
   app.dataSources.db.automigrate('Visit', function(err) {
@@ -79,12 +79,12 @@ module.exports = function(app) {
       {date: '28.04.2016', time: '16:00', doctor_id: '4', patient_id: '7', status: 'confirmed'},
       {date: '28.04.2016', time: '07:15', doctor_id: '4', patient_id: '8', status: 'confirmed'},
       {date: '28.04.2016', time: '12:30', doctor_id: '3', patient_id: '9', status: 'confirmed'},
-      {date: '29.04.2016', time: '12:45', doctor_id: '2', patient_id: '12', status: 'new'},
-      {date: '29.04.2016', time: '13:00', doctor_id: '2', patient_id: '11', status: 'new'},
+      {date: '29.04.2016', time: '12:45', doctor_id: '2', patient_id: '12', status: 'unconfirmed'},
+      {date: '29.04.2016', time: '13:00', doctor_id: '2', patient_id: '11', status: 'unconfirmed'},
     ], function(err, Visits) {
       if (err) throw err;
  
-      console.log('Models created: \n', Visits);
+      
     });
   });
   app.dataSources.db.automigrate('Act', function(err) {
@@ -98,7 +98,7 @@ module.exports = function(app) {
     ], function(err, Acts) {
       if (err) throw err;
  
-      console.log('Models created: \n', Acts);
+      
     });
   });
 };
