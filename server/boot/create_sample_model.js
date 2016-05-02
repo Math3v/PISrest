@@ -4,11 +4,11 @@ module.exports = function(app) {
     if (err) throw err;
  
     app.models.APIUser.create([
-      {name: 'Pepik', password: 'Pepik', pin: '898981/9897', phone: '545488188', address: 'In the middle, Vancouver', role:'admin'},
-      {name: 'Fera', password: 'Fera', pin: '878738/9897', phone: '111111121', address: 'Jany Hlavske 14, Kosice', role: 'doctor'},
+      {name: 'admin', password: 'admin', pin: '898981/9897', phone: '545488188', address: 'In the middle, Vancouver', role:'admin'},
+      {name: 'doktor', password: 'doktor', pin: '878738/9897', phone: '111111121', address: 'Jany Hlavske 14, Kosice', role: 'doctor'},
       {name: 'Jera', password: 'Jera', pin: '788789/9898', phone: '111111231', address: 'Na vyhlidce 124, Plzen', role: 'doctor'},
       {name: 'Dera', password: 'Dera', pin: '878788/9899', phone: '111111573', address: 'Lazy 147, Zlin', role: 'doctor'},
-      {name: 'Mira', password: 'Mira', pin: '878821/9897', phone: '111115481', address: 'Kralovo pole 10, Brno', role: 'patient'},
+      {name: 'patient', password: 'patient', pin: '878821/9897', phone: '111115481', address: 'Kralovo pole 10, Brno', role: 'patient'},
       {name: 'Kira', password: 'Kira', pin: '878348/9898', phone: '118111542', address: 'U duboveho haje, Praha', role: 'patient'},
       {name: 'Tira', password: 'Tira', pin: '128788/9899', phone: '111115443', address: 'Novosady, Zlin', role: 'patient'},
       {name: 'Jan', password: 'Jan', pin: '920513/4415', phone: '721547874', address: 'Podlesi 4515, Zlin', role: 'patient'},
